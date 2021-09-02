@@ -1,4 +1,5 @@
 #random code
+# giving distance between 2 places
 
 from geopy.geocoders import Nominatim
 from geopy import distance
@@ -19,6 +20,7 @@ def distanceCalc(von, nach):
 
     print(von)
     print(nach)
+    print("-------------------------------------------------------------------------------")
     print("-------------------------------------------------------------------------------")
     print("-------------------------------------------------------------------------------")
     print(str(round(distances, 2)))
